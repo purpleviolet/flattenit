@@ -26,7 +26,7 @@ Flatten a 2D list of lists
 Features
 --------
 
-* TODO
+* Contains function ``flattenit`` that when given a 2-D list of lists, returns a single list of all the elements from the input list of lists.
 
 Credits
 -------
