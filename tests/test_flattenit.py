@@ -27,6 +27,12 @@ def test_content(response):
     # assert 'GitHub' in BeautifulSoup(response.content).title.string
 
 
+def test_flattenit_function():
+    matrix = [[1, 2, 3], [4, 5, 6]]
+    new_list = flattenit.flattenit(matrix)
+    assert new_list == [1, 2, 3, 4, 5, 6]
+
+
 def test_command_line_interface():
     """Test the CLI."""
     runner = CliRunner()
